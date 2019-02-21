@@ -3,14 +3,12 @@
         <title>
           High4Teens
         </title>
-        <link rel="stylesheet" href="colorlib-regform-17/css/style.css">
-        <link rel="stylesheet" href="colorlib-regform-17\fonts\material-design-iconic-font">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="qoutegenerator.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
     </head>
     <body>
         <!----navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-toggler-left">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"></span>
                 <a class="navbar-brand d-none d-lg-inline-block" href="#">
@@ -30,22 +28,39 @@
                     
                     
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item">Register</a>
+                        <a href="https://localhost:3000/home" class="nav-link m-2 menu-item">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="signin.html" class="nav-link m-2 menu-item">Log In</a>
+                        <a href="https://localhost:3000/wordcloud" class="nav-link m-2 menu-item">Word Cloud</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://localhost:3000/quotegenerator" class="nav-link m-2 menu-item">Quote Generator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://localhost:3000/scenarioquote" class="nav-link m-2 menu-item">Scenario Quote</a>
                     </li>
                 </ul>
+            
+                
+                <button class="btn btn-sm btn-outline-warning"><a href="#" class="nav-link">Logout</a></button>
+                            
+                    
+                    
+        
             </div>
         </nav>
         
         <!----navbar-->
-        <div class="main">
-        <div class="wrapper" style="background-image: url('colorlib-regform-17/images/bg-registration-form-1.jpg');">
-            <div class="inner">
-              
+        <!--Input text area-->
+    <section>
+        <form class="paper">
+            <textarea class="input text-area" name="note" placeholder="Express thru Words..."></textarea>
+        </form>
         </div>
         </div>
+    </section>
+        <!---End of input text area-->
     </body>
     </html>
+    
     

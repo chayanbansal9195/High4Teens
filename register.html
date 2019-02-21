@@ -28,12 +28,9 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     
-                    
+        
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="signin.html" class="nav-link m-2 menu-item">Log In</a>
+                        <a href="https://localhost:3000/login" class="nav-link m-2 menu-item">Log In</a>
                     </li>
                 </ul>
             </div>
@@ -43,6 +40,7 @@
         <div class="main">
 
             <!-- Sign up form -->
+            <!-- Sign up form -->
             <div class="wrapper" style="background-image: url('colorlib-regform-17/images/bg-registration-form-1.jpg');">
               <div class="inner">
                 <div class="image-holder">
@@ -51,19 +49,19 @@
                 <form action="">
                   <h3>Registration Form</h3>
                   <div class="form-group">
-                    <input type="text" placeholder="First Name" class="form-control">
-                    <input type="text" placeholder="Last Name" class="form-control">
+                    <input type="text" name="firstname" placeholder="First Name" class="form-control">
+                    <input type="text" name="lastname" placeholder="Last Name" class="form-control">
                   </div>
                   <div class="form-wrapper">
-                    <input type="text" placeholder="Username" class="form-control">
+                    <input type="text" name="username" placeholder="Username" class="form-control">
                     <i class="zmdi zmdi-account"></i>
                   </div>
                   <div class="form-wrapper">
-                    <input type="text" placeholder="Email Address" class="form-control">
+                    <input type="text" name="email" placeholder="Email Address" class="form-control">
                     <i class="zmdi zmdi-email"></i>
                   </div>
-                  <div class="form-wrapper">
-                    <select name="" id="" class="form-control">
+                  <div class="form-wrapper" >
+                    <select name="gender"  class="form-control" >
                       <option value="" disabled selected>Gender</option>
                       <option value="male">Male</option>
                       <option value="femal">Female</option>
@@ -72,11 +70,11 @@
                     <i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
                   </div>
                   <div class="form-wrapper">
-                    <input type="password" placeholder="Password" class="form-control">
+                    <input type="password" name="password" placeholder="Password" class="form-control">
                     <i class="zmdi zmdi-lock"></i>
                   </div>
                   <div class="form-wrapper">
-                    <input type="password" placeholder="Confirm Password" class="form-control">
+                    <input type="password" name="confirm_password" placeholder="Confirm Password" class="form-control">
                     <i class="zmdi zmdi-lock"></i>
                   </div>
                   <button>Register
@@ -85,6 +83,5 @@
                 </form>
               </div>
             </div>
-
     </body>
 </html>
