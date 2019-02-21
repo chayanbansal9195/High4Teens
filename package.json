@@ -1,0 +1,28 @@
+{
+  "name": "high4teens",
+  "version": "1.0.0",
+  "description": "user quote image generator, word cloud generator, senario based quote generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chayanbansal9195/High4Teens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chayanbansal9195/High4Teens/issues"
+  },
+  "homepage": "https://github.com/chayanbansal9195/High4Teens#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  }
+}
