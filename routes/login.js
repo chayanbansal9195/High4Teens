@@ -8,7 +8,7 @@ module.exports=function(req,res){
     
     var username=req.body.username
     var password=req.body.password
-    var sql = "SELECT * from user WHERE username = '"+username+"'"
+    var sql = "SELECT * from userdetails WHERE username = '"+username+"'"
     db.query(sql,(err,results,fields)=>{
         if(err)
         console.log('error occured',err)
@@ -31,7 +31,7 @@ module.exports=function(req,res){
             else{
                 res.send({
                     "code":401,
-                    "success":"email does not match"
+                    "success":"username does not match"
                       });
             }
         }

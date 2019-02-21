@@ -15,7 +15,7 @@ module.exports = function(req, res) {
     var hash=bcrypt.hashSync(password,10)
    
     var sql =
-      "INSERT INTO user (firstname,lastname,username,email,gender,password) VALUES ('" +
+      "INSERT INTO userdetails (firstname,lastname,username,email,gender,password) VALUES ('" +
       firstname +
       "','" +
      lastname +
